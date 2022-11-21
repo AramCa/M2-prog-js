@@ -5,7 +5,7 @@ class App
             console.log("Hello World");
             let appNaam = "site";
             let versienummer = 0.9;
-            let versiedatum =  "21-11-2022";
+            let current = new Date();
             let autheur = "Aram";
             let copyright = "geen coppyright";
             let distributeur ="Aram";
@@ -14,11 +14,11 @@ class App
 
             console.log(appNaam);
             console.log(versienummer);
-            console.log(versiedatum);
             console.log(autheur);
             console.log(copyright);
             console.log(distributeur);
             console.log(darkmode);
+            console.log(current);
         }
 }
 
