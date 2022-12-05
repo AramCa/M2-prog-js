@@ -1,8 +1,4 @@
-class App
-{
-    runApplication()
-    {
-        class App
+ class App
         {
             runApplication()
             {
@@ -11,20 +7,20 @@ class App
                 let canvas = document.getElementById("canvasId");
                 let g = canvas.getContext("2d");
                 g.beginPath()
-                g.fillStyle = "red";
-                g.moveTo(300,100); 
-                g.lineTo(700,200); 
-                g.lineTo(600,400); 
-                g.lineTo(200,300); 
-                g.lineTo(300,100); 
+                g.fillStyle = "brown";
+                g.moveTo(30,10); 
+                g.lineTo(70,20); 
+                g.lineTo(60,40); 
+                g.lineTo(20,30); 
+                g.lineTo(30,10); 
                 g.closePath();
                 g.stroke();
                 g.fill();
                 g.beginPath()
-                g.fillStyle = "yellow";
-                g.moveTo(700,200); 
-                g.lineTo(850,300);
-                g.lineTo(600,400); 
+                g.fillStyle = "brown";
+                g.moveTo(70,20); 
+                g.lineTo(85,30);
+                g.lineTo(60,40); 
                 g.closePath();
                 g.stroke();
                 g.fill();
@@ -32,32 +28,42 @@ class App
         
                 g.beginPath()
                 g.fillStyle = "brown";
-                g.moveTo(200,300);
-                g.lineTo(200,600);
-                g.lineTo(600,700);
-                g.lineTo(600,400);
-                g.lineTo(200,300);
+                g.moveTo(20,30);
+                g.lineTo(20,60);
+                g.lineTo(60,70);
+                g.lineTo(60,40);
+                g.lineTo(20,30);
                 g.closePath();
                 g.stroke();
                 g.fill();
         
                 g.beginPath()
                 g.fillStyle = "blue";
-                g.moveTo(600,400);
-                g.lineTo(600,700);
-                g.lineTo(850,600);
-                g.lineTo(850,300);
+                g.moveTo(60,40);
+                g.lineTo(60,70);
+                g.lineTo(85,60);
+                g.lineTo(85,30);
                 g.closePath();
                 g.stroke();
                 g.fill();
         
                 g.beginPath()
-                g.fillStyle = "red";
-                g.moveTo(650,550);
-                g.lineTo(650,680);
-                g.lineTo(700,660);
-                g.lineTo(700,530);
-                g.lineTo(650,550);
+                g.fillStyle = "yellow";
+                g.moveTo(65,55);
+                g.lineTo(65,68);
+                g.lineTo(70,66);
+                g.lineTo(70,53);
+                g.lineTo(65,55);
+                g.closePath();
+                g.stroke();
+                g.fill();
+
+                g.beginPath()
+                g.fillStyle = "black";
+                g.moveTo(25,45);
+                g.lineTo(40,48);
+                g.lineTo(40,55);
+                g.lineTo(25,52)
                 g.closePath();
                 g.stroke();
                 g.fill();
@@ -70,15 +76,3 @@ class App
         
         let app = new App();
         app.runApplication();
-        
-
-    }
-
-
-
-
-
-}
-
-let app = new App();
-app.runApplication();
