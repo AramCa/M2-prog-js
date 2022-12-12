@@ -47,8 +47,11 @@ let parasaur = new Dino("parasaur",false,23)
 console.log(parasaur);
 
 console.log(`${parasaur.naam} eet de plant gras`)
-console.log(`${trex.naam} eet dino ${parasaur.naam}`)
 
+parasaur.eetplant(parasaur)
+console.log(parasaur)
+
+console.log(`${trex.naam} eet dino ${parasaur.naam}`)
 
 trex.eetDino(parasaur);
 console.log(parasaur);
@@ -56,6 +59,5 @@ console.log(parasaur);
 let app = new App();
 app.runApplication();
 
-parasaur.eetplant(parasaur)
-console.log(parasaur)
+
 
