@@ -38,7 +38,7 @@
                 g.fill();
         
                 g.beginPath()
-                g.fillStyle = "blue";
+                g.fillStyle = "brown";
                 g.moveTo(60,40);
                 g.lineTo(60,70);
                 g.lineTo(85,60);
@@ -48,7 +48,7 @@
                 g.fill();
         
                 g.beginPath()
-                g.fillStyle = "yellow";
+                g.fillStyle = "red";
                 g.moveTo(65,55);
                 g.lineTo(65,68);
                 g.lineTo(70,66);
